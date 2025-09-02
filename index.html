@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Syllabus - Academic Courses</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Engineering Syllabus</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#courses" class="nav-link">Courses</a>
+                    <a href="#about" class="nav-link">About</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Engineering Course</span>
+                        <br>Syllabus Collection
+                    </h1>
+                    <p class="hero-description">
+                        Comprehensive syllabus for engineering courses including VLSI Design, AI/ML, Information Theory, GPS, Financial Management, Radar Engineering, and Web Technologies.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">7</span>
+                            <span class="stat-label">Courses</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">35</span>
+                            <span class="stat-label">Units</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">2022-23</span>
+                            <span class="stat-label">Batch</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses" class="courses">
+            <div class="container">
+                <h2 class="section-title">Course Syllabus</h2>
+                <div class="courses-grid">
+                    
+                    <!-- VLSI Design Course -->
+                    <div class="course-card" data-course="vlsi">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <h3 class="course-title">VLSI Design</h3>
+                            <span class="course-type">Core</span>
+                        </div>
+                        <div class="course-preview">
+                            <p>VLSI technology, circuit design processes with stick diagrams and layout diagrams.</p>
+                        </div>
+                        <button class="course-btn" onclick="showCourseDetails('vlsi')">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- AI/ML Course -->
+                    <div class="course-card" data-course="aiml">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3 class="course-title">AI & Machine Learning</h3>
+                            <span class="course-type">OE</span>
+                        </div>
+                        <div class="course-preview">
+                            <p>User interfaces to improve human and AI interaction, machine learning algorithms.</p>
+                        </div>
+                        <button class="course-btn" onclick="showCourseDetails('aiml')">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- Information Theory Course -->
+                    <div class="course-card" data-course="info-theory">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-signal"></i>
+                            </div>
+                            <h3 class="course-title">Information Theory & Coding</h3>
+                            <span class="course-type">OE</span>
+                        </div>
+                        <div class="course-preview">
+                            <p>Information theory concepts, channel capacity, error-correcting codes.</p>
+                        </div>
+                        <button class="course-btn" onclick="showCourseDetails('info-theory')">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- GPS Course -->
+                    <div class="course-card" data-course="gps">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-satellite"></i>
+                            </div>
+                            <h3 class="course-title">Global Positioning System</h3>
+                            <span class="course-type">PE</span>
+                        </div>
+                        <div class="course-preview">
+                            <p>GPS working principles, satellite constellations, coordinate systems.</p>
+                        </div>
+                        <button class="course-btn" onclick="showCourseDetails('gps')">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- Financial Management Course -->
+                    <div class="course-card" data-course="finance">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3 class="course-title">Financial Management</h3>
+                            <span class="course-type">HSSE</span>
+                        </div>
+                        <div class="course-preview">
+                            <p>Financial statements analysis, budgeting, capital budgeting techniques.</p>
+                        </div>
+                        <button class="course-btn" onclick="showCourseDetails('finance')">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- Radar Engineering Course -->
+                    <div class="course-card" data-course="radar">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-radar"></i>
+                            </div>
+                            <h3 class="course-title">Radar Engineering</h3>
+                            <span class="course-type">PE</span>
+                        </div>
+                        <div class="course-preview">
+                            <p>Radar systems principles, MTI, Pulse Doppler radars, tracking systems.</p>
+                        </div>
+                        <button class="course-btn" onclick="showCourseDetails('radar')">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- Web Technologies Course -->
+                    <div class="course-card" data-course="web-tech">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="course-title">Web Technologies</h3>
+                            <span class="course-type">SC</span>
+                        </div>
+                        <div class="course-preview">
+                            <p>Static and dynamic website design, HTML, CSS, JavaScript, PHP development.</p>
+                        </div>
+                        <button class="course-btn" onclick="showCourseDetails('web-tech')">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Course Details Modal -->
+    <div id="courseModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+                <button class="close-btn" onclick="closeModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Course details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Engineering Syllabus. Academic Course Collection.</p>
+                <p>Effective from 2022-23 Admitted Batch</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
