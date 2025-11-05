@@ -187,54 +187,54 @@ const courseData = {
             "(as in PDF)"
         ]
     },
-    finance: {
-        title: "Financial Management for Engineers (HSSE)",
-        type: "HSSE",
-        objectives: [
-            "To provide awareness and understanding of the ways finance helps in reaching business objectives.",
-            "To familiarize with the form, content and analysis of financial statements and the accounting principles and techniques.",
-            "To Identify signals pointing to deterioration in financial condition and analyze the reasons for variances between the actual and budgeted results",
-            "To facilitate in the improvement of organizations' performance by pointing out the importance of cost control, breakeven and variance analysis.",
-            "To equip with the ability to communicate comfortably with Financial Executives and discuss the financial performance of the organization effectively."
-        ],
-        outcomes: [
-            "Ability to analyze financial statements.",
-            "Understanding costs and methods to reduce them.",
-            "Taking decisions regarding the price of the products services, or both.",
-            "Understanding of capital budgeting and various capital budgeting techniques.",
-            "Skill to practice different Budgeting Systems in organizations."
-        ],
-        units: [
-            {
-                title: "UNIT-I",
-                content: "Accounting concepts and systems - Elements of Financial Statements - trading, profit & loss Statement- Cash Flow Statements - Notes to Accounts - Profits vs. Cash Flows."
-            },
-            {
-                title: "UNIT-II",
-                content: "Analysis of Financial Statements - Financial Analysis-Financial Ratios and their Interpretations covering: Profitability Ratios; Liquidity Ratios; Return on Capital Ratios; - Management of Working Capital: Capital and Its Components - Working Capital Cycle - Working Capital Financing."
-            },
-            {
-                title: "UNIT-III",
-                content: "Management Decision Making: Cost concepts and its application in Decision Making - Types of cost – Direct & Indirect, Fixed & Variable - Cost Sheet - Cost Volume Profit Analysis - Understanding Cost behavior – Cost concepts and its application in Decision Making - Relevance of Activity Based Costing - Marginal Costing - Make or Buy - Shut down or continue - Sell or process further - Domestic vs. Export Sales."
-            },
-            {
-                title: "UNIT-IV",
-                content: "Budgets and Budgetary Control: Different types of Budgets (Departmental, Function based, Cash, Master) - Budgeting systems (ABC / ZBB / Rolling/ Incremental / Planning) - Variance Analysis - Capital Budgeting and Investment Appraisals - Meaning of Capital Budgeting - Relevance of Capital Budgeting - Techniques of Capital Budgeting - Payback Period - Accounting Rate of Return - Net Present Value - Internal Rate of Return - Discounted Payback Period."
-            },
-            {
-                title: "UNIT-V",
-                content: "Means of Finance: Financial Instruments - Shares, Debentures, Derivatives - Share Capital Vs. Term Loans - Leasing - Financial Markets - Capital Markets - Stock Exchanges."
-            }
-        ],
-        textBooks: [
-            "Finance for Non-Finance People by Sandeep Goal (2017), Publisher: Taylor and Francis.",
-            "Finance for Non-Finance Managers by B.K. Chatterjee (1988), Jaico Publishing House.",
-            "Finance for Nonfinancial Managers: Finance for Small Business, Basic Finance Concepts by Murugesan Ramaswamy (2021)."
-        ],
-        referenceBooks: [
-            "(as in PDF)"
-        ]
-    },
+    management: {
+    title: "Industrial Management and Entrepreneurship (HSSE)",
+    type: "HSSE",
+    objectives: [
+        "To familiarize the students with the concepts of Management.",
+        "To relate the concepts of Management with industrial organizations.",
+        "To explain the factors affecting productivity and how productivity can be increased in an Industrial undertaking.",
+        "To set forth a basic framework for understanding Entrepreneurship."
+    ],
+    outcomes: [
+        "Understand the roles, skills and functions of management and distinguish the different types of business organizations.",
+        "Identify the factors involved in Production Operations Management.",
+        "Diagnose organizational problems and take suitable decisions.",
+        "Establish good Human Resource Management practices.",
+        "Acquire necessary knowledge and skills required for organizing and carrying out entrepreneurial activities."
+    ],
+    units: [
+        {
+            title: "UNIT-I",
+            content: "Basic Concepts of Management: Management - Definition, Nature and Importance; Functions of Management; Levels of Management; F.W. Taylor's Scientific Management; Henry Fayol's Principles of Management."
+        },
+        {
+            title: "UNIT-II",
+            content: "Forms of Business Organizations: Introduction; Types of Business Organizations: Private Sector - Individual Ownership, Partnership, Joint Stock Companies and Co-operative Organizations; Public Sector - Departmental Organizations, Public Corporations and Government Companies; The Joint Sector Management."
+        },
+        {
+            title: "UNIT-III",
+            content: "Production and Operations Management: Plant Location - Factors to be considered in the selection of Plant Location; Break-even Analysis - Significance and Managerial Applications; Importance of Production Planning and Control and its Functions; Human Resource Management and Functions of Human Resource Manager (in brief); Functions of Marketing; Methods of Raising Finance."
+        },
+        {
+            title: "UNIT-IV",
+            content: "Entrepreneurship: Definition, Characteristics and Skills; Types of Entrepreneurs; Entrepreneur vs. Professional Managers; Growth of Entrepreneurs; Nature and Importance of Entrepreneurs; Women Entrepreneurs; Problems of Entrepreneurship."
+        },
+        {
+            title: "UNIT-V",
+            content: "Entrepreneurial Development and Project Management: Institutions in aid of Entrepreneurship Development; Idea Generation - Sources and Techniques; Stages in Project Formulation; Steps for starting a Small Enterprise; Incentives for Small Scale Industries by Government."
+        }
+    ],
+    textBooks: [
+        "Sharma, S.C. and Banga, T.R., Industrial Organization & Engineering Economics, Khanna Publishers, Delhi, 2000.",
+        "Vasant Desai, The Dynamics of Entrepreneurial Development and Management (Planning for Future Sustainable Growth), Himalayan Publishing House, 2018."
+    ],
+    referenceBooks: [
+        "Aryasri, A.R., Management Science, McGraw Hill Education (India Private Limited, New Delhi), 2014.",
+        "Sheela, P. and Jagadeswara Rao, K., Entrepreneurship, Shree Publishing House, Guntur, Andhra Pradesh, 2017."
+    ]
+},
+
     radar: {
         title: "Radar Engineering (PE)",
         type: "PE",
